@@ -25,4 +25,5 @@ let myCreatedDate = new Date("01-02-2023") // In JS month indexcing starts from 
 let newDate = new Date()
 console.log(newDate); //=> Gives date and time in the output. 
 console.log(newDate.getDate()); // => Check various date value after adding (.) This will give various options
-// to check dates, time,  year, and many more.  
+// to check dates, time,  year, and many more. 
+
