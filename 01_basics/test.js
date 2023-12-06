@@ -60,3 +60,5 @@ console.log(newString);
 const newStringOne = "    hitesh"
 console.log(newStringOne);
 console.log(newStringOne.trim());
+const balance = new Number (100.000)
+console.log(balance.toFixed(2));
