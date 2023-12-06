@@ -51,14 +51,18 @@ const repoCount = 50
 
 // console.log(`Hello my name is ${name} and my repoCount is ${repoCount}`); //Modern way 
 
-const gameName = new String('Hitesh-hc')
-console.log(gameName.indexOf("t"));
-console.log(gameName.charAt(3));
+// const gameName = new String('Hitesh-hc')
+// console.log(gameName.indexOf("t"));
+// console.log(gameName.charAt(3));
 
-const newString =  gameName.substring(0,4)
-console.log(newString);
-const newStringOne = "    hitesh"
-console.log(newStringOne);
-console.log(newStringOne.trim());
-const balance = new Number (100.000)
-console.log(balance.toFixed(2));
+// const newString =  gameName.substring(0,4)
+// console.log(newString);
+// const newStringOne = "    hitesh"
+// console.log(newStringOne);
+// console.log(newStringOne.trim());
+// const balance = new Number (100.000)
+// console.log(balance.toFixed(2));
+
+// const anotherNumber = 23.234
+// console.log(anotherNumber.toPrecision(3));
+
