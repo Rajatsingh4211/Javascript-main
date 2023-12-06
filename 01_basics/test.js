@@ -32,9 +32,31 @@ On all these. */ //his is good
 
 // let arr2 = [3,45,5,6,7,8,8,9,9,5,6,7,89,9,1]
 // let num2 = arr2.length
-// for(let i = 0; i<num2; i++){ 
+// for(let i = 0; i<num2; i++){
 //     if (i % 2 == 0) {
 //         console.log(arr2[i]);
 //     }
     
 // }
+
+
+// Strings Revision in JavaScript. 
+
+const name = "Rajat "
+const repoCount = 50
+
+// console.log(name + repoCount); 
+
+// BackTicks method also known as PlaceHolders. 
+
+// console.log(`Hello my name is ${name} and my repoCount is ${repoCount}`); //Modern way 
+
+const gameName = new String('Hitesh-hc')
+console.log(gameName.indexOf("t"));
+console.log(gameName.charAt(3));
+
+const newString =  gameName.substring(0,4)
+console.log(newString);
+const newStringOne = "    hitesh"
+console.log(newStringOne);
+console.log(newStringOne.trim());

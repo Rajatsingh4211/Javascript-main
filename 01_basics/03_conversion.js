@@ -53,7 +53,10 @@
 
 // console.log(true)
 
-let isLoggedin = 0; 
-let booleanisloggedin = Boolean (isLoggedin)
-console.log(booleanisloggedin);
+// let isLoggedin = 0; 
+// let booleanisloggedin = Boolean (isLoggedin)
+// console.log(booleanisloggedin);
+
+// let gameName = "Hitesh"
+// console.log(gameName.indexOf(e));
 
