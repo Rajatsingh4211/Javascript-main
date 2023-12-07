@@ -15,12 +15,24 @@ const Jsuser = {
 
 }
 
-console.log(Jsuser.email);
-console.log(Jsuser["email"]);
-console.log(Jsuser["full name"]);
+// console.log(Jsuser.email);
+// console.log(Jsuser["email"]);
+// console.log(Jsuser["full name"]);
 Jsuser.email = "Hitesh@chatgpt.com"
 
-console.log(Jsuser);
-Object.freeze(Jsuser)
+// console.log(Jsuser);
+// Object.freeze(Jsuser)
 Jsuser.email = 'hitesh@microsoft.com'
-console.log(Jsuser);
+// console.log(Jsuser);
+
+Jsuser.greeting = function(){
+    console.log("Hello JS user");
+}
+console.log(Jsuser.greeting);
+
+
+Jsuser.greetingTwo = function(){
+    console.log(`Hello JS user, ${this.name}`);
+}
+console.log(Jsuser.greeting());
+console.log(Jsuser.greetingTwo());
