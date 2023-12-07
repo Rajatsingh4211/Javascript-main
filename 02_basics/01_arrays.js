@@ -51,4 +51,9 @@ const myHeros = ["Shaktiman", "Naagraj", "Doga"]
 const ano = ["a", 1,2,3,4,5,6,7]
 const ano2 = ano.splice(1,4)
 console.log(ano2);
-console.log(ano);
+console.log(ano); 
+
+
+/* Imp point to keep in mind that in Slice method the array does not include the last element and it 
+does not also changes the value in the array, while in the splice method the the method includes the 
+last array but it changes the values in the original array */
