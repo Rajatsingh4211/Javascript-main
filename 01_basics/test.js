@@ -66,3 +66,7 @@ const repoCount = 50
 // const anotherNumber = 23.234
 // console.log(anotherNumber.toPrecision(3));
 
+// let myDate = new Date
+// console.log(myDate.toLocaleString());
+
+// Part one of JS BAsic completed. 
