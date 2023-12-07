@@ -69,4 +69,4 @@ const repoCount = 50
 // let myDate = new Date
 // console.log(myDate.toLocaleString());
 
-// Part one of JS BAsic completed. 
+// Part one of JS Basic completed. 
