@@ -42,8 +42,12 @@ function loginUserMessage (username){
 // console.log(calculateCartPrice(200, 400, 500));
 
 
-// REST OPERATOR
-function calculateCartPrice(...num1){ // Method to pass multiple operator in JS using spread method (...)
+// REST OPERATOR/ 
+
+
+
+
+function calculateCartPrice(val1, val2, ...num1){ // Method to pass multiple operator in JS using spread method (...)
   return num1 
  }
 //  console.log(calculateCartPrice(200, 400, 500));
@@ -55,12 +59,12 @@ const user = {
   price : 199
 
 }
-function handleOnject (anyobject){
+function handleObject (anyobject){
   //  console.log(`Username is ${anyobject.username}, and the price is ${anyobject.price}`);
 
 }
 // handleOnject(user)
-handleOnject(
+handleObject(
   {
     username : "Sam",
     Price : 399
@@ -72,4 +76,12 @@ function returnSecondValue (getArray) {
 return (getArray[2])
 }
 // console.log(returnSecondValue(mynewArray));
-console.log(returnSecondValue([200, 400, 500, 1000 ]));
+// console.log(returnSecondValue([200, 400, 500, 1000 ]));
+
+// REVISION OF BUM OPERATOR
+
+
+// function anotheroper  (...bum){
+//  return bum
+// }
+// console.log(anotheroper(200,5,7,745));
