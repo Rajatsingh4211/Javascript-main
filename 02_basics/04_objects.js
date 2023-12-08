@@ -61,3 +61,27 @@ users[1].email
 // console.log(Object.keys(tinderusr));
 // console.log(Object.values(tinderusr));
 // console.log(Object.entries(tinderusr));
+
+// Objects Destructuring and JSON API. 
+
+const course = { 
+    coursename : "js in hindi",
+    price : 999, 
+    courseInstructor : "Hitesh Choudary"
+}
+// course.courseInstructor
+
+const {courseInstructor : instructor} = course 
+console.log(instructor);
+
+
+// {
+//     "name" : "Rajat", 
+//     "courseName" : "Js in hindi"
+//     "price": "free"
+// }
+// [
+//     {}
+//     {}
+//     {}
+// ]
