@@ -24,7 +24,7 @@ function addTwonumbers (number1, number2){
 
 
 const result = addTwonumbers(4, 3)
-// console.log("Result ", result);
+console.log("Result ", result);
 
 
 
