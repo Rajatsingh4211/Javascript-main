@@ -84,16 +84,33 @@
 
 // callback function, Keep in Mind Very Imp. 
 
-function log1(){
-    console.log("Hello World")
+// function log1(){
+//     console.log("Hello World")
+// }
+
+// function log2(){
+//     console.log("Hello World 2")
+// }
+
+// function logWhatsPresent(fn){
+//     fn()
+// }
+
+// logWhatsPresent(log2)
+
+// One more example of Callback function. 
+
+function fn1(){
+
+console.log("Hey there")
 }
 
-function log2(){
-    console.log("Hello World 2")
+function fn2(){
+    console.log("Hey there what's up");
 }
 
-function logWhatsPresent(fn){
-    fn()
+function callback(cb){
+    cb()
 }
 
-logWhatsPresent(log2)
+callback(fn2)
