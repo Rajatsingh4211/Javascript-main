@@ -84,17 +84,17 @@
 
 // callback function, Keep in Mind Very Imp. 
 
-// function log1(){
-//     console.log("Hello World")
-// }
+function log1(){
+    console.log("Hello World")
+}
 
-// function log2(){
-//     console.log("Hello World 2")
-// }
+function log2(){
+    console.log("Hello World 2")
+}
 
-// function logWhatsPresent(fn){
-//     fn()
-// }
+function logWhatsPresent(fn){
+    fn()
+}
 
 // logWhatsPresent(log2)
 
@@ -115,4 +115,20 @@
 
 // callback(fn2)
 
-// CLASSES
+// CALLBACK FUNCTION IN JS
+
+function square(n){
+    return n*n 
+}
+function cube (n){
+    return n*n*n
+}
+
+function sumofSomething(a, s, f, fn){
+ const val1 = fn(a)
+ const val2 = fn(s)
+ const val3 = fn(f)
+ return val1 + val2 + val3
+}
+
+console.log(sumofSomething(1, 2, 3, cube))
