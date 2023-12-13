@@ -78,7 +78,7 @@
 // const inititalArray = [1,2,3,4,5]
 
 // function logthing(str){ 
-//     console.log(str)
+//     console.log(str + " Is the string")
 // }
 // inititalArray.forEach(logthing)
 
@@ -100,17 +100,19 @@
 
 // One more example of Callback function. 
 
-function fn1(){
+// function fn1(){
 
-console.log("Hey there")
-}
+// console.log("Hey there")
+// }
 
-function fn2(){
-    console.log("Hey there what's up");
-}
+// function fn2(){
+//     console.log("Hey there what's up");
+// }
 
-function callback(cb){
-    cb()
-}
+// function callback(cb){
+//     cb()
+// }
 
-callback(fn2)
+// callback(fn2)
+
+// CLASSES
