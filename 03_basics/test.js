@@ -131,4 +131,26 @@ function sumofSomething(a, s, f, fn){
  return val1 + val2 + val3
 }
 
-console.log(sumofSomething(1, 2, 3, cube))
+// console.log(sumofSomething(1, 2, 3, cube))
+
+// CLASSES
+
+class Animal{
+    constructor (name, legcount, speaks)
+{ 
+    this.speak = speaks; 
+    this.legcount = legcount; 
+    this.name = name; 
+
+}
+speaks(){
+    console.log("Hi there " + this.speak);
+}
+
+}
+
+let dog = new Animal ("dog", 4 , "bhow bhow")
+let cat = new Animal ("cat", 4 , "meow")
+
+// dog.speaks(); 
+
