@@ -19,8 +19,27 @@ const user = {
 // }
 // chai()
 
-const chai =  () => {
-    let username = "Hitesh"
-    console.log(this.username)
-}
-chai ()
+// const chai =  () => {
+//     let username = "Hitesh"
+    // console.log(this.username)
+// }
+// chai ()
+    
+// ARROW FUNCTIONS
+
+// const addTwo = (num1, num2) => {
+//     return num1 + num2
+// }
+
+// const addNum = addTwo(46,4)
+// console.log(addNum);
+
+// Implicit return 
+const addTwo = (num1, num2) => (num1 + num2)
+
+
+const addNum = addTwo(46,4)
+// console.log(addNum);
+
+const myArr = [1,3,5,6,7,]
+// myArr.forEach(function())
