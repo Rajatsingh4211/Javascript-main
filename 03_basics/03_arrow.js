@@ -34,7 +34,8 @@ const user = {
 // const addNum = addTwo(46,4)
 // console.log(addNum);
 
-// Implicit return 
+/* Implicit return => In implecit return you don't have to add the return keyword to return the value of the 
+function */
 const addTwo = (num1, num2) => (num1 + num2)
 
 
