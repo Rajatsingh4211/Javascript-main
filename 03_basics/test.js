@@ -154,3 +154,15 @@ let cat = new Animal ("cat", 4 , "meow")
 
 // dog.speaks(); 
 
+function one (){
+    const username = "Hitesh"
+
+    function two() {
+        const website = "Youtube"    
+        console.log(username);
+    } 
+    console.log(website)
+    two()
+   
+}
+one ()
