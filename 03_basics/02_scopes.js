@@ -24,7 +24,7 @@ function one (){
     Two()
 }
 
-// one()
+one()
 
 if (true) {
  
@@ -38,7 +38,7 @@ if (true) {
 // console.log(username);
 
 //+++++++++++++++++++++++++++++++++ interesting +++++++++++++++++++++++++++++++++
-console.log(addOne(5));
+// console.log(addOne(5));
 
 function addOne(num){
   return  num + 1 
