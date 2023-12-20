@@ -52,3 +52,27 @@ if (userLoggedIn && debitCard && 2==2) {
 if (loggedInFromGoogle || loggedInFromEmail) {
      console.log("Allowed to purchase Course")
 }
+
+
+// Nullish Coalescing Operator (??) : null, undefined
+
+let val1
+// val1 = 5 ?? 10
+// val1 = null ?? 10
+
+val1 = undefined ?? 15
+// console.log(val1);
+// console.log(val1);
+
+
+val1 = null ?? 10 ?? 10 // IN this case whatever the first value this val1 gets that value will be assigned to it. 
+
+
+
+// TERNIARY Coalescing OPERATOR
+
+// condition ? true : false
+
+
+const iceTeaPrice = 100; 
+iceTeaPrice <=80 ? console.log("lessthan 80") : console.log("More than 80")
