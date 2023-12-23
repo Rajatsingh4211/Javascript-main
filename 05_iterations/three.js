@@ -24,8 +24,8 @@ for (const greet of greetings) {
 
 // // console.log(map);
 
-// for (const Maps of map) {
-//     console.log(Maps);
+// for (const key of map) {
+//     console.log(key);
 // }
 
 
@@ -42,15 +42,19 @@ map.set("FR", "France")
 // console.log(map);
 
 
-for (const [Maps, value] of map) {
-    // console.log(Maps, ":-", value);
-}
+// for (const [Maps, value] of map) {
+//     console.log(Maps, ":-", value);
+// }
 
 // const myObj = {
 //     "game1" : "NFS",
 //     "game2" : "SpiderMan"  
 // }
+// // console.log(myObj);
 
-// for (const key of myObj) {
-//         console.log(key, ":-", value);
+
+// for (const [key, value] of myObj) {
+//         console.log(key, ":-", value); // Objects are not itetratable. That's why this is showing error. 
 // }
+
+
