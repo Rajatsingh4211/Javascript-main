@@ -25,3 +25,23 @@ const dc_heros = ["Superman", "Flash", "Batman"]
 // console.log(real_another_array); 
 
 // IS Array, From Array, of Array. 
+
+
+const marvel_heros2 = ["thor", "tonyStark", "Ironman"];
+const dc_heros2 = ["superman", "batman", "wonderwoman"];
+
+const allHeros = marvel_heros.concat(dc_heros) //Concat returns you a new array. 
+// console.log(allHeros) 
+
+// spread 
+
+const few_heros = [...marvel_heros2, ...dc_heros2]
+
+// console.log(few_heros)
+
+console.log(Array.isArray("Hitesh"))
+
+
+
+
+
