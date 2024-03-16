@@ -5,13 +5,13 @@ const balance = new Number(100)
 // console.log(balance.toString().length) 
 // console.log(balance.toFixed(2)) 
 
-const otherNumber = 23.8699 /* => Gives precise value of the number. [Expected Output = 23.9 because of .toprecision syntax may
+const otherNumber = 123.8699 /* => Gives precise value of the number. [Expected Output = 23.9 because of .toprecision syntax may
      be 124 if the value given is 123.8699
 */
 // console.log(otherNumber.toPrecision(3));
 
 const hundreds = 1000000000
-// console.log(hundreds.toLocaleString()); // => Used to add commas in numbers in order to make them readiable. 
+console.log(hundreds.toLocaleString()); // => Used to add commas in numbers in order to make them readiable. 
 // console.log(hundreds.toLocaleString('en-IN')); //=> To convert in Indian Value
 
 
@@ -30,5 +30,5 @@ const hundreds = 1000000000
 // console.log(Math.max(4,6,7,8,)); //=> Known as Math.mix function. Used to find the max value in the given Array. 
 // console.log(Math.min(4,6,7,8,)); //=> Known as Math.min function. Used to find the min value in the given Array
 
-console.log(Math.random()); //=> Gives you random value under 0. 
-console.log((Math.random()*10)+1); 
+//console.log(Math.random()); //=> Gives you random value under 0. 
+// console.log((Math.random()*10)+1); 

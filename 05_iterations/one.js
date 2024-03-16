@@ -74,3 +74,12 @@ for (let index = 0; index < myArray.length; index++) { //if we add and = sign af
 //     }
     
 // }
+
+
+
+// let isloggedin = "5454"
+
+// let booleanisloggedin = Boolean(isloggedin)
+// console.log(isloggedin)
+
+console.log("Hello World")

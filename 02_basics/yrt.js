@@ -46,4 +46,40 @@ const obj3 = {5 : "c", 6 : "d"}
 
 const objfin = Object.assign({}, obj1, obj2)
 
-console.log(objfin)
+// console.log(objfin)
+
+
+const users = [
+    {
+        id : "h@gmail", 
+        name1 : "raj"
+    },
+    {
+        id : "h@gmail", 
+        name1 : "raj"
+    },
+    {
+        id : "h@gmail", 
+        name1 : "raj"
+    },
+    {
+        id : "h@gmail", 
+        name1 : "raj"
+    }
+]
+
+users[1].id
+// console.log(tinderuser);
+// console.log(Object.values(tinderuser)) // Used to find the values. 
+// console.log(Object.keys(tinderuser)) // Used to find the keys. 
+// console.log(Object.entries(tinderuser)) // Gives the seperate entry in the form of arrays 
+// console.log(tinderuser.hasOwnProperty("islogged"))
+
+const course = {
+    course : "JavaScript", 
+    courseInsturctor : "Hiteshchaudary", 
+    price : 999 
+}
+
+const {courseInsturctor} = course // This is a syntactical Sugar. 
+// console.log(courseInsturctor)

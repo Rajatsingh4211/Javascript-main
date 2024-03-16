@@ -16,4 +16,21 @@ accountCity = "Delhi"
 prefer not to use var because of the issue in block scope and functional scope 
 */
 
-console.table([accountEmail,accountId,accountPassword,accountCity, accountState])
+
+console.log(accountId)
+// console.table([accountEmail,accountId,accountPassword,accountCity, accountState])
+ 
+// function findsum(){
+//     let ans = 0; 
+//      for (i = 0; i<=10; i++){
+//        ans =+ i; 
+//      }
+//      return ans; 
+//    }
+   
+//    function fndsumtill100(){
+//      return findsum(100)
+//    }
+   
+//    setTimeout(fndsumtill100, 2000)
+//    console.log("Hello World")

@@ -3,26 +3,27 @@
 
 // console.log(name + repoCount + "value"); => Outdated Syntax. 
 
-// console.log(`Hello my name is ${name} and my repo count is ${repoCount}`); => Modern way also known as String interpolation or backtick
+// console.log(`Hello my name is ${name} and my repo count is ${repoCount}`); //=> Modern way also known as String interpolation or backtick. 
 
 // Another way to declare string (// const gameName = new String("Rajat kumar singh"))
 
  const gameName = new String("Rajat-kr")
 // console.log(gameName.__proto__);    
 // console.log(gameName.__proto__);
-console.log(gameName.length);
+// console.log(gameName.length);
+// console.log(gameName.charAt(2))
 // console.log(gameName.indexOf("k"));
-// console.log(gameName. lastIndexOf("i")) 
+// console.log(gameName. lastIndexOf("i")) //Because I is not presnent in the new String
 // console.log(gameName.toLowerCase());
 // console.log(gameName.indexOf("j"));
 
+//  console.log(gameName.substring(0,3))
 
+// const newString = gameName.substring(0,4)
+// console.log(newString)
 
-const newString = gameName.substring(0,4)
-console.log(newString)
-
-const anotherString = gameName.slice(-8,4)
-console.log(anotherString);
+// const anotherString = gameName.slice(-8,4)
+// console.log(anotherString);
 
 
 /* .slice doesnot includes last object in the Array. 
@@ -35,21 +36,21 @@ array will not be displayed. .Slice method cuts the last element.
 
 // Trim method. 
 const newStringOne = "     hitesh 1 "
-console.log(newStringOne);
-console.log(newStringOne.trim()); 
+// console.log(newStringOne);
+// console.log(newStringOne.trim()); 
 
 // .trim method is used to remove all the extra spaces from the input array. 
 
 
 // Replace array
-const url = "https://www.hitesh.com/Rajat%20chaudary."
+const url = "https://www.hitesh.com/Hitesh%20chaudary."
 
-console.log (url.replace('%20', '-'))
+// console.log (url.replace('%20', '-'))
 
 // Replace array is used to change the info in the array 
 
 // Include Array
-console.log(url.includes("Rajat"))
+// console.log(url.includes("H"))
 // This array is used to check whether given data is present in the array or Notification. 
 
 // split method

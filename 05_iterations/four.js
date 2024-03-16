@@ -12,6 +12,8 @@ for (const key in myObj) {
 // console.log(`${key} is for ${myObj [key]}`);
 }
 
+
+
 // forIn FOR ARRAY. 
 
 const programming = ["js", "cpp", "swift", "java", "python"]

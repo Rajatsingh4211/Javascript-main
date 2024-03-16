@@ -166,3 +166,18 @@ function one (){
    
 }
 one ()
+
+
+const user = {
+  username: "Hitesh",
+  price: 199,
+};
+
+function handleObject(anyobject) {
+  console.log(
+    `Username is ${anyobject.username} and price is ${anyobject.price}`,
+   
+  );
+}
+
+console.log(handleObject(user));

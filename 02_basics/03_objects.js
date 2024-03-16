@@ -26,13 +26,26 @@ Jsuser.email = 'hitesh@microsoft.com'
 // console.log(Jsuser);
 
 Jsuser.greeting = function(){
-    console.log("Hello JS user");
+    // console.log("Hello JS user");
 }
-console.log(Jsuser.greeting);
+// console.log(Jsuser.greeting);
 
 
 Jsuser.greetingTwo = function(){
-    console.log(`Hello JS user, ${this.name}`);
+    // console.log(`Hello JS user, ${this.name}`);
 }
-console.log(Jsuser.greeting());
-console.log(Jsuser.greetingTwo());
+// console.log(Jsuser.greeting());
+// console.log(Jsuser.greetingTwo());
+
+
+const jsuser = {
+    name : "Rajat", 
+    age : 27, 
+    emaii: "rajat@email.com", 
+    class : 17,
+    lastLoggedin : "20-12-2022", 
+    lastloginDay : "Monday"
+  }
+  
+  console.log(jsuser["email"]);
+  
