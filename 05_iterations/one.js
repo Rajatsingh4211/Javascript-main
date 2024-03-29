@@ -19,7 +19,7 @@
 // }
 let myArray = ["Flash", "Batman", "Spiderman"]
 
-for (let index = 0; index < myArray.length; index++) { //if we add and = sign after < in myarray.length then
+for (let index = 0; index <= myArray.length; index++) { //if we add and = sign after < in myarray.length then
     //it will go out of the scope and will give the output undefined
     const element = myArray[index];
     console.log(element);
