@@ -5,6 +5,8 @@ const myHeros = ["Shaktiman", "Naagraj", "Doga"]
 
 const myArr2 = new Array (1,2,3,4,5,6,7)
 // console.log(myArr[2]);
+console.log(myArr2);
+
 
 // Array Methods. 
 
@@ -31,7 +33,7 @@ const myArr2 = new Array (1,2,3,4,5,6,7)
 
 //  console.log(myArr.indexOf(3));
 
-const newArr = myArr.join()
+// const newArr = myArr.join()
 // console.log(typeof myArr);
 // console.log(newArr);
 
@@ -58,7 +60,7 @@ const newArr = myArr.join()
 does not also changes the value in the array, while in the splice method the the method includes the 
 last array but it changes the values in the original array */
 
-const newar = [1,2,3,4,5]
+// const newar = [1,2,3,4,5]
 // newar.push(1) // Adds the element in the last index of the array
 // newar.pop()  // Removes the last element of the array. 
 // newar.shift()  // Removes the first element of the array. 
@@ -67,14 +69,14 @@ const newar = [1,2,3,4,5]
 
 // Revision ogf slice and splice. 
 
-const tray = [1,2,3,4,5]
+// const tray = [1,2,3,4,5]
 
-console.log("A", tray)
+// console.log("A", tray)
 
-const myn1 = tray.slice(1,3)
-console.log(myn1)
+// const myn1 = tray.slice(1,3)
+// console.log(myn1)
 
-console.log("B", tray)
-const myn2 = tray.splice(1,3)
-console.log("C", tray)
-console.log(myn2)
+// console.log("B", tray)
+// const myn2 = tray.splice(1,3)
+// console.log("C", tray)
+// console.log(myn2)
