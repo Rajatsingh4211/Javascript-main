@@ -1,4 +1,4 @@
-// Filters Maps and Reduce. 
+// Filters and Maps 
 
 const coding = ["js", "cpp", "swift", "java", "python"]
 
@@ -41,8 +41,10 @@ const books = [
     { title: 'Book Nine', genre: 'Non-Fiction', publish: 1981, edition: 1989 },
   ];
 
-const userbooks = books.filter( (bk)=>bk.publish>1986 )
-console.log(userbooks); 
+const userbook = books.filter( (bkk)=> {
+    return bkk.publish >= 1960 && bkk.genre === "History"
+} )
 
+console.log(userbook)
 
 
