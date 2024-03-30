@@ -108,3 +108,11 @@ for (const [key, value] of map) {
 // for (const key of program) {
 //   console.log([key])
 // } // => In array for off loop gives the output of the array. 
+
+const mymap = new Map();
+mymap.set ("IN", "India")
+mymap.set ("USA", "United States")
+mymap.set ("FR", "France")
+for (const [map, values] of mymap) { 
+console.log(map, ":-", values); 
+}
